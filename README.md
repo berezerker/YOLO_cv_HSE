@@ -16,7 +16,11 @@ The model used in this work is situated in resources/saved_model_416x416/, the n
 
 To execute the model, the test_image has to be given as an argument in console, same as the model weights as follows:
 ```bash
-python demo.py -i image_test.jpeg -w model_float16_quant.tflite 
+python demo.py
+```
+If you want to specify another model or another image, you can use arguments as follows:
+```bash
+python demo.py -i image_name.jpg -w model_name.tflite
 ```
 As a result, the following should appear in the console chat:
 ```bash
