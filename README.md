@@ -1,4 +1,4 @@
-# HR-Depth: High Resolution Self-Supervised Monocular Depth Estimation
+# YOLOV5: Image detection model
 This repository contains an executable demonstration of YOLO and Tensorflow implementation for image detection.
 
 ## 1. Requirements Installation
